@@ -1,6 +1,8 @@
 import type { SpecialCoffeeType } from "@/_types/coffe/SpecialCoffe";
 
-export const useGetSpecialCoffee = () => {
+export const useGetSpecialCoffee = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 1500)); // Simula latência de rede
+
   const specialCoffee: SpecialCoffeeType = {
     id: 1,
     name: "Bourbon Amarelo de Piracaia",

@@ -1,6 +1,8 @@
 import { TestimonyType } from "@/_types/testimony/Testimony";
 
-export const useGetAllTestimonies = () => {
+export const useGetAllTestimonies = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // Simula latência de rede
+
   const testimonies: TestimonyType[] = [
     {
       id: 1,

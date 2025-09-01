@@ -1,6 +1,8 @@
 import { CoffeeType } from "@/_types/coffe/Coffe";
 
-export const useGetAllCoffees = () => {
+export const useGetAllCoffees = async () => {
+  await new Promise((resolve) => setTimeout(resolve, 1000)); // Simula latência de rede
+
   const coffees: CoffeeType[] = [
     {
       id: 2,
