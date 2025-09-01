@@ -1,7 +1,7 @@
 import { CoffeeType } from "@/_types/coffe/Coffe";
 import { formatPrice } from "@/_utils/format-price";
 import Card from "@/components/ui/card";
-import { SuggestionCard } from "./suggestions-card";
+import { SuggestionCard } from "./components/suggestions-card";
 
 type SuggestionsSectionProps = {
   suggestions: Pick<

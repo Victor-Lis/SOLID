@@ -1,8 +1,8 @@
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
-import SpecialOfferSection from "@/components/sections/special-offer/special-offer-section";
-import SuggestionsSection from "@/components/sections/suggestions/suggestions-section";
-import TestimonialsSection from "@/components/sections/testimonials/testimonials-section";
+import SpecialOfferSection from "@/modules/special-offer";
+import SuggestionsSection from "@/modules/suggestions";
+import TestimonialsSection from "@/modules/testimonials";
 import { useGetAllCoffees } from "@/hooks/coffe/use-get-all";
 import { useGetSpecialCoffee } from "@/hooks/coffe/use-get-special";
 import { useGetAllTestimonies } from "@/hooks/testimony/use-get-all";

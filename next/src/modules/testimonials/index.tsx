@@ -1,4 +1,4 @@
-import TestimonialsCard from "./testimonials-card";
+import TestimonialsCard from "./components/testimonials-card";
 import { TestimonyType } from "@/_types/testimony/Testimony";
 
 type TestimonialsSectionProps = {

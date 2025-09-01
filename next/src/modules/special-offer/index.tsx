@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import AddCartButton from "./add-cart-button";
-import { SpecialOfferImage } from "./special-offer-image";
-import { SpecialOfferDetails } from "./special-offer-details";
-import { QuantitySelector } from "./quantity-selector";
+import AddCartButton from "./components/add-cart-button";
+import { SpecialOfferImage } from "./components/special-offer-image";
+import { SpecialOfferDetails } from "./components/special-offer-details";
+import { QuantitySelector } from "./components/quantity-selector";
 import type { SpecialCoffeeType } from "@/_types/coffe/SpecialCoffe";
 
 interface SpecialOfferSectionProps {
